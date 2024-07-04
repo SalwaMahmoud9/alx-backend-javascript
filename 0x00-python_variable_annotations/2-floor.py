@@ -1,11 +1,11 @@
 #!/usr/bin/env python3
 """
-floor
+Basic annotations - floor
 """
 
 
 def floor(n: float) -> int:
     """
-    floor of number
+    return floor of the number
     """
     return int(n)

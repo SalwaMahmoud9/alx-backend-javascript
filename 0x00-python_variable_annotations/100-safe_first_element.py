@@ -1,13 +1,13 @@
 #!/usr/bin/env python3
 """
-safe first element
+Duck typing - first element of a sequence
 """
 from typing import Sequence, Any, Union
 
 
 def safe_first_element(lst: Sequence[Any]) -> Union[Any, None]:
     """
-    safe_first_element
+    safe first element
     """
     if lst:
         return lst[0]

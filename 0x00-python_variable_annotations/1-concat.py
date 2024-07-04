@@ -1,11 +1,11 @@
 #!/usr/bin/env python3
 """
-concatinate
+Basic annotations - add
 """
 
 
 def concat(str1: str, str2: str) -> str:
     """
-    concatinate two strings
+    function to concat two strings
     """
     return str1 + str2

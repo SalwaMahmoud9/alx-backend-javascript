@@ -1,11 +1,11 @@
 #!/usr/bin/env python3
 """
-convert to string
+Basic annotations - to string
 """
 
 
 def to_str(n: float) -> str:
     """
-    convert float to string
+    cast float to string
     """
     return str(n)

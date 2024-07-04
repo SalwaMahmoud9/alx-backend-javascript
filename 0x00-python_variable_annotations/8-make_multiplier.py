@@ -1,13 +1,13 @@
 #!/usr/bin/env python3
 """
-make multipier
+Complex types - functions
 """
 from typing import Callable
 
 
 def make_multiplier(multiplier: float) -> Callable[[float], float]:
     """
-    multiplie
+    return a function that multiplies a float
     """
     def multiplies(n: float):
         """
