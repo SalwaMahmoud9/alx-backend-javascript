@@ -2,10 +2,9 @@ import AppController from '../controllers/AppController';
 import StudentsController from '../controllers/StudentsController';
 
 /**
- * Binds the routes to the appropriate handler in the
- * given Express application.
- * @param {Express} app The Express application.
- * @author Bezaleel Olakunori <https://github.com/SalwaMahmoud9>
+ * index
+ * @param {Express} app Express.
+ * @author Salwa Mahmoud <https://github.com/SalwaMahmoud9>
  */
 const mapRoutes = (app) => {
   app.get('/', AppController.getHomepage);
